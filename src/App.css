@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --main-Blue:rgb(37, 99, 235);
+  --transparent-Blue:rgba(37, 99, 235,0.9);
+}
+
+.active{
+    border-bottom: 4px solid  var(--main-Blue);
+}
+/*Header*/
+
+header img{
+      border-radius: 100px 100px 0 0;
+}
+/*End-Header*/
+
+.our-story{
+    width:45%;
+    height:55%;
+    background-color: var(--transparent-Blue);
+    color: white;
+}
+/* media query*/
+@media only screen and (max-width: 575.98px) {
+    .watch{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   .watch{
+        font-size: 0.6rem;
+    }
+}
