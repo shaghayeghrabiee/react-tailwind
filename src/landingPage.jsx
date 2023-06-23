@@ -1,10 +1,8 @@
-
-
-import React from 'react';
+import React from "react";
 import headerimg from "./assets/header-landing-page.jpg";
 import secondImage from "./assets/Merged_document.jpg";
-import {AiFillPlayCircle} from "react-icons/ai";
-import  {BsFillPlayFill} from "react-icons/bs"
+import { AiFillPlayCircle } from "react-icons/ai";
+import { BsFillPlayFill } from "react-icons/bs";
 
 function LandingPage() {
   return (
@@ -27,7 +25,7 @@ function LandingPage() {
         </div>
       </header>
       <section className="second-section my-10">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 justify-center items-center">
           <div className="relative">
             <div className="absolute inset-y-0 inset-x-2 our-story p-10">
               <p>OUR STORY</p>
@@ -62,4 +60,3 @@ function LandingPage() {
 }
 
 export default LandingPage;
-
